@@ -1,0 +1,16 @@
+[project]
+name = "print-log"
+version = "0.1.0"
+description = "Ajuda a registrar mensagens de forma formatada utilizando a biblioteca rich para Python"
+readme = "README.md"
+authors = [
+    { name = "jef-loppes-reis" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "rich>=14.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
